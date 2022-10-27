@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(254, 251, 251);
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.flexing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    height: 60%;
+    width: 80%;
+    color: rgb(252, 253, 255);
+
+}
+
+.flexbox1{
+    background-color: rgb(254, 166, 4);
+    padding: 10px;
+    
+}
+
+
+.flexbox2{
+    background-color: rgba(7, 156, 156, 0.99);
+    padding: 10px;
+}
+
+.flexbox3{
+    background-color: rgb(37, 108, 108);
+    padding: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 17px;
+    border: none;
+    padding: 5px;
+}
+
+.flexbox1 button a{
+    color: rgb(254, 166, 4);
+}
+
+.flexbox2 button a{
+    color: rgba(7, 156, 156, 0.99);
+}
+
+.flexbox3 button a{
+    color: rgb(37, 108, 108);
+}
+
+a{
+    text-decoration: none;
+}
+
